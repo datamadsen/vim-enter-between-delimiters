@@ -32,13 +32,8 @@ function! s:getDelimitersForPlugin()
     endif
 endfunction
 
-function! s:Set(var, val)
-  if !exists(a:var)
-    exec 'let ' . a:var . ' = ' . a:val
-  end
-endfunction
-
 " ====================
 " Initialize defaults:
 " ====================
-call s:Set('g:vebdDelimiters', ["{}", "[]", "()"])
+"call s:Set('g:vebdDelimiters', ["{}", "[]", "()"])
+let g:vebdDelimiters = ["{}", "[]", "()"]
