@@ -1,6 +1,8 @@
 vim-enter-between-delimiters
 ============================
 
+*NOTICE* use jiangmiao/auto-pairs.git instead.
+
 A vim plugin that, based on the cursors surroundings, can open a line between
 the delimiters that the plugin has been configured with.
 
